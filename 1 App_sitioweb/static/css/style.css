@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+}
+
+body, html {
+  height: 100%; /* Asegura que el cuerpo y el html ocupen el 100% de la altura */
+}
+
+.container{
+  background-color: #d94e4e; /* Color de fondo */
+    width: 100%; /* Ancho completo */
+    height: 100vh; 
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #D4D4D4;
+
+    .nav-link {
+      color: #1a1918; 
+
+
+      .nav-link:hover {
+        color: #c70039; /* Cambia el color al pasar el mouse */
+    }
+  }
+  
+
+  }
+  
+
+
+  
+  
+  
