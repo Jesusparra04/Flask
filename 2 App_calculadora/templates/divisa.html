@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Calculadora de divisas</h1>
+<h4>Calculadora que convierte pesos colombianos en dolares</h4>
+
+<form action="/divisa" method="POST"> 
+    <div class="mb-3">
+      <input type="number" class="form-control" name="num" >
+    </div>
+    <button type="submit" class="btn btn-primary">Calcular</button>
+   </form>
+
+   <h2>Resultado: {{resultado}}</h2>
+
+{% endblock %}
